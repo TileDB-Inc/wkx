@@ -2,7 +2,7 @@
 coverage
 
 # Build files
-dist
+# dist
 
 # node_modules
 node_modules
