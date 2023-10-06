@@ -1,4 +1,24 @@
+# Test coverage
 coverage
+
+# Build files
 dist
+
+# node_modules
 node_modules
-.nyc_output
+
+# Yarn
+.yarn/cache
+.yarn/unplugged
+.yarn/build-state.yml
+.yarn/install-state.gz
+
+# Parcel
+.parcel-cache
+
+# MacOS
+.DS_Store
+**/.DS_Store
+
+# Vscode
+.vscode
