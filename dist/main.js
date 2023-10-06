@@ -12,6 +12,7 @@ $parcel$export(module.exports, "MultiPoint", () => $475a4917f0b733ec$export$96af
 $parcel$export(module.exports, "MultiPolygon", () => $2ea735447b250056$export$33402c60aeb5385e);
 $parcel$export(module.exports, "MultiLineString", () => $29fb558284236d2d$export$67bf33efacdfe108);
 $parcel$export(module.exports, "GeometryCollection", () => $6fbcdde72a2b135b$export$914c76c60a2662a);
+$parcel$export(module.exports, "Parser", () => $0f6a681c4346f47b$export$7acfa6ed01010e37);
 class $6f59db5aecb64db1$export$76c443c41c20b286 {
     buffer;
     position;
@@ -1406,6 +1407,7 @@ class $475a4917f0b733ec$export$96afecae28385f21 extends (0, $0a6c6bc697a854ef$ex
         return 9 + this.points.length * coordinateSize;
     }
 }
+
 
 
 

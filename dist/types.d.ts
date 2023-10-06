@@ -195,6 +195,12 @@ export class GeometryCollection extends GeometryBase {
     toTwkb(): ArrayBuffer;
     getWkbSize(): number;
 }
+export class Parser {
+    static parse(input: string | DataView | WktParser | BinaryReader, options?: WKBParseOptions): GeometryBase;
+    static parseWkt(value: string | WktParser): GeometryBase;
+    static parseWkb(value: BinaryReader | DataView, parentOptions?: WKBParseOptions): GeometryBase;
+    static parseTwkb(value: BinaryReader | DataView): Point | Polygon | LineString | MultiPolygon | MultiLineString | GeometryCollection | MultiPoint;
+}
 export class MultiPoint extends GeometryBase {
     points: Point[];
     constructor(points?: Point[], srid?: number);

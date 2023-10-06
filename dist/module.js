@@ -1399,5 +1399,6 @@ class $0c33c6071a20fad9$export$96afecae28385f21 extends (0, $a302058d3e7f8260$ex
 
 
 
-export {$2c3534628444ec3b$export$76c443c41c20b286 as BinaryReader, $1530ad50b414e0e4$export$b6da98667e5e554f as BinaryWriter, $21f843f2d44da692$export$7057cae8b783d070 as WktParser, $36f6c31e9bfcd2c1$export$baf26146a414f24a as Point, $df4f5e38aabaf1fd$export$7d31b617c820d435 as Polygon, $99f67623b9320aa1$export$27733b973b72e710 as LineString, $0c33c6071a20fad9$export$96afecae28385f21 as MultiPoint, $fbcff5821a064285$export$33402c60aeb5385e as MultiPolygon, $d50852c1c20055e6$export$67bf33efacdfe108 as MultiLineString, $ed11580361cfc139$export$914c76c60a2662a as GeometryCollection};
+
+export {$2c3534628444ec3b$export$76c443c41c20b286 as BinaryReader, $1530ad50b414e0e4$export$b6da98667e5e554f as BinaryWriter, $21f843f2d44da692$export$7057cae8b783d070 as WktParser, $36f6c31e9bfcd2c1$export$baf26146a414f24a as Point, $df4f5e38aabaf1fd$export$7d31b617c820d435 as Polygon, $99f67623b9320aa1$export$27733b973b72e710 as LineString, $0c33c6071a20fad9$export$96afecae28385f21 as MultiPoint, $fbcff5821a064285$export$33402c60aeb5385e as MultiPolygon, $d50852c1c20055e6$export$67bf33efacdfe108 as MultiLineString, $ed11580361cfc139$export$914c76c60a2662a as GeometryCollection, $a5221086de520fb0$export$7acfa6ed01010e37 as Parser};
 //# sourceMappingURL=module.js.map

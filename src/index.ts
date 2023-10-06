@@ -8,6 +8,7 @@ import { MultiPoint } from "./multipoint";
 import { MultiPolygon } from "./multipolygon";
 import { MultiLineString } from "./multilinestring";
 import { GeometryCollection } from "./geometrycollection";
+import { Parser } from "./parser";
 
 export {
     BinaryReader,
@@ -19,5 +20,6 @@ export {
     MultiPoint,
     MultiPolygon,
     MultiLineString,
-    GeometryCollection
+    GeometryCollection,
+    Parser
 }
